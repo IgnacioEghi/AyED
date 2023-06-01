@@ -11,6 +11,9 @@ int main()
     float pi_sobre_cuatro=0;
     float pi=0;
     int iteraciones=0;
+    
+    // Cálculo de la serie de Leibniz
+    
     while (pi!=pi_deseado) {
         pi_sobre_cuatro=pi_sobre_cuatro+pow(-1,iteraciones)/(2*iteraciones+1);
         iteraciones++;
